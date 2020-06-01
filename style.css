@@ -1,0 +1,39 @@
+@page {
+    size: 80mm 55mm !important;
+    margin: 0;
+}
+@media print
+{
+    #noPrint
+    {
+        display: none;
+    }
+    .schoolName
+    {
+        font-size: 20px;
+    }
+    div.disNone
+    {
+        display: none;
+    }
+
+}
+
+
+
+
+@media screen
+{
+    .printable
+    {
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
